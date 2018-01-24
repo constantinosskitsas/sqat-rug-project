@@ -1,0 +1,20 @@
+
+nl.tudelft.jpacman.LauncherSmokeTest must import org.junit.Test
+nl.tudelft.jpacman.board.BoardTest must import org.junit.Test
+nl.tudelft.jpacman.board.OccupantTest must import org.junit.Test
+nl.tudelft.jpacman.level.LevelTest must import org.junit.Test
+nl.tudelft.jpacman.npc.ghost.NavigationTest must import org.junit.Test
+
+
+nl.tudelft.jpacman.Launcher cannot import org.junit.Test
+nl.tudelft.jpacman.game.Game cannot import org.junit.Test
+nl.tudelft.jpacman.board.Board cannot import org.junit.Test
+nl.tudelft.jpacman.board.Square cannot import org.junit.Test
+nl.tudelft.jpacman.level.Level cannot import org.junit.Test
+nl.tudelft.jpacman.level.Player cannot import org.junit.Test
+
+
+nl.tudelft.jpacman.game  cannot depend nl.tudelft.jpacman.sprite 
+nl.tudelft.jpacman.game  cannot depend nl.tudelft.jpacman.ui 
+nl.tudelft.jpacman.board cannot depend nl.tudelft.jpacman.ui 
+nl.tudelft.jpacman.npc cannot depend nl.tudelft.jpacman.ui 
